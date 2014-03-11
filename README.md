@@ -17,7 +17,7 @@ $ lein repl
 
 ```clojure
 ;; Change namespace.
-;; This is optional. But it is helpful when playing with it.
+;; This is optional. But it is helpful when playing with this library.
 (ns facet-liveview.core)
 
 ;; Import a library.
