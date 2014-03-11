@@ -13,9 +13,9 @@ This example uses [facet](https://github.com/hammartap/facet) for retrieve livev
     $ git clone https://github.com/hammartap/facet-liveview.git
     $ cd facet-liveview
     $ lein repl
+    
 
-
-```clj
+```clojure
 ;; Change namespace.
 ;; This is optional. But it is helpful when playing with it.
 (ns facet-liveview.core)
@@ -32,7 +32,7 @@ This example uses [facet](https://github.com/hammartap/facet) for retrieve livev
 
 ;; Finish the window.
 (ql/sketch-close liveview)
-clj
+```
 
 ## License
 
