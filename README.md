@@ -9,11 +9,11 @@ This example uses [facet](https://github.com/hammartap/facet) for retrieve livev
 2. Clone this repository, then fire up REPL.
 3. Import the library and execute `(-main)`
 
-
+```
     $ git clone https://github.com/hammartap/facet-liveview.git
     $ cd facet-liveview
     $ lein repl
-    
+```
 
 ```clojure
 ;; Change namespace.
