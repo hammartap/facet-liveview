@@ -10,9 +10,9 @@ This example uses [facet](https://github.com/hammartap/facet) for retrieve livev
 3. Import the library and execute `(-main)`
 
 ```
-    $ git clone https://github.com/hammartap/facet-liveview.git
-    $ cd facet-liveview
-    $ lein repl
+$ git clone https://github.com/hammartap/facet-liveview.git
+$ cd facet-liveview
+$ lein repl
 ```
 
 ```clojure
