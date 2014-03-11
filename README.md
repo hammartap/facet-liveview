@@ -2,16 +2,18 @@
 
 An example application which demonstrates liveview retrieving of Sony Remote Camera Control API Beta.
 
+This example uses [facet](https://github.com/hammartap/facet) for retrieve liveview from Sony camera, and [Quil](https://github.com/quil/quil) for visualisation.
+
 ## Usage
 1. Make sure your machine is connected Sony Camera via WiFi.
 2. Clone this repository, then fire up REPL.
 3. Import the library and execute `(-main)`
 
-```bash
-$ git clone https://github.com/hammartap/facet-liveview.git
-$ cd facet-liveview
-$ lein repl
-bash
+
+   $ git clone https://github.com/hammartap/facet-liveview.git
+   $ cd facet-liveview
+   $ lein repl
+
 
 ```clj
 ;; Change namespace.
@@ -19,7 +21,7 @@ bash
 (ns facet-liveview.core)
 
 ;; Import a library.
-(use 'facet-liveview.core )
+(use 'facet-liveview.core)
 
 ;; Then, call main function.
 (-main)
